@@ -7,7 +7,7 @@ app.enable("trust proxy");
 const isDev = app.settings.env === "development";
 const url = isDev
   ? "http://localhost:3000"
-  : "https://google-meet-clone-lac.vercel.app/";
+  : "https://google-meet-clone-lac.vercel.app";
 const PORT = process.env.PORT || 5050;
 const server = app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
